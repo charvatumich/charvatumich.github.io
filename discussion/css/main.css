@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.title{
+    background: #0f0;
+    width: 300px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+}
+h1 {
+    margin: 0;
+}
+p {
+    text-align: justify;
+    width: 300px;
+}
