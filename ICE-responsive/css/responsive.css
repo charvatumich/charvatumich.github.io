@@ -1,0 +1,7 @@
+.top-nav ul{
+    display: inline;
+}
+
+.top-nav li{
+    display: inline-block;
+}
