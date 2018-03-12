@@ -7,8 +7,16 @@
 
     <script>
     $(document).ready(function(){
-      /*    YOUR jQuery CODE HERE */ 
+      /*    YOUR jQuery CODE HERE */
+      $("#emailfield").hide();
+
+      $("#subscribe").change(function() {
+          $("#emailfield").toggle()
+      });
     }); 
+    function toggleEmail() {
+      console.log("hello world")
+    }
     </script>
   </head>
   <body>
