@@ -46,6 +46,7 @@
 			$("#image").text($(this).attr("alt"));
 			console.log("mouse in");
 		});
+		
 		$(".preview").on("mouseout blur", function() {
 			$("#image").css('background-image','None');
 			$("#image").text("Hover over an image below.");

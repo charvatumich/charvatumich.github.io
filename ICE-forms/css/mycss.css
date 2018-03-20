@@ -1,0 +1,13 @@
+.thumbnail{
+	padding:20px;
+	margin:20px;
+	width:25%;
+}
+
+fieldset {
+	background-color: #ffcb05;
+}
+
+* {
+	font-family: "Open Sans", "Comic Sans MS"
+}
