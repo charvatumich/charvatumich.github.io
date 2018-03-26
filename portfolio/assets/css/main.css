@@ -1,0 +1,130 @@
+/* General */
+
+html {
+    height: 100%;
+    font-size: 100%;
+}
+
+body {
+    background-color: #fff;
+    font-family: "Open Sans", "Raleway", Arial, serif;
+    line-height: 1.8;
+    font-weight: 400;
+    font-size: 13px;
+    color: #828282;
+    position: relative;
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    position: relative;
+    min-height: 100%;
+}
+
+.close-list {
+    margin: 0;
+    padding: 0;
+    font-size: 21;
+}
+
+.close-list-sub {
+    margin: 0;
+    margin-left: 1em;
+    padding: 0;
+}
+
+.close-bot {
+    margin-bottom: 0.7em;
+}
+.close-top {
+    margin-top: 0.0em;
+}
+
+.no-space {
+    margin: 0%;
+    padding: 0%;
+}
+
+.list-head {
+    font-size: 16px;
+}
+
+.space-top {
+    margin-top: 1em;
+}
+.takeaway {
+    font-family: "Montserrat", Arial, serif;
+    line-height: 1.4;
+    font-weight: 700;
+    color: #202020;
+    text-transform: uppercase;
+    letter-spacing: 3.4px;
+    font-size: 14px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.concept_list {
+    display:list-item;
+}
+
+.floated{
+    float: left;
+    margin: 0.5em;
+}
+
+.cent {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+hr.thin {
+    height: 1px;
+    border: 0;
+    color: #333;
+    background-color: #333;
+    width: 100%;
+    }
+
+/* Text */
+a {
+    color: #e41919;
+    transition: all .3s ease-in-out;
+}
+
+a:hover, a:focus {
+    outline: 0;
+    text-decoration: none;
+    color: #f7b8b8;
+}
+
+h1 > a,
+h2 > a,
+h3 > a,
+h4 > a,
+h5 > a,
+h6 > a {
+    color: #202020;
+}
+
+h1 > a:hover,
+h1 > a:focus,
+h2 > a:hover,
+h2 > a:focus,
+h3 > a:hover,
+h3 > a:focus,
+h4 > a:hover,
+h4 > a:focus,
+h5 > a:hover,
+h5 > a:focus,
+h6 > a:hover,
+h6 > a:focus {
+    color: #e41919;
+}
