@@ -93,6 +93,31 @@ hr.thin {
     width: 100%;
     }
 
+/*Header and  Navigation */
+.header-container{
+    overflow: hidden;
+}
+
+.logo{
+    float: left;
+    vertical-align: middle;
+}
+
+.header-container{
+    background-color: #202020;
+}
+
+.nav-bar {
+}
+
+.nav-list{
+    float: right;
+}
+
+.nav-list > li {
+
+}
+
 /* Text */
 a {
     color: #e41919;
@@ -103,6 +128,14 @@ a:hover, a:focus {
     outline: 0;
     text-decoration: none;
     color: #f7b8b8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", Verdana, Arial;
+    text-transform: uppercase;
+    letter-spacing: 3.4px;
+    color: #202020;
+
 }
 
 h1 > a,
