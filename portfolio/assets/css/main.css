@@ -105,9 +105,11 @@ hr.thin {
 
 .header-container{
     background-color: #202020;
+    line-height: 30px;
 }
 
 .nav-bar {
+
 }
 
 .nav-list{
@@ -115,7 +117,9 @@ hr.thin {
 }
 
 .nav-list > li {
-
+    display: inline;
+    padding: 5px;
+    vertical-align: middle;
 }
 
 /* Text */
