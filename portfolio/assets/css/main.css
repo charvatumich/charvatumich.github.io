@@ -1,5 +1,53 @@
 /* General */
 
+.center {
+    text-align: center;
+}
+/* Text */
+
+a {
+    color: #e41919;
+    transition: all .3s ease-in-out;
+}
+
+a:hover, a:focus {
+    outline: 0;
+    text-decoration: none;
+    color: #f7b8b8;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", Verdana, Arial;
+    text-transform: uppercase;
+    letter-spacing: 3.4px;
+    color: #202020;
+    padding: 5px;
+}
+
+h1>a, h2>a, h3>a, h4>a, h5>a, h6>a {
+    color: #202020;
+}
+
+h1>a:hover, h1>a:focus, h2>a:hover, h2>a:focus, h3>a:hover, h3>a:focus, h4>a:hover, h4>a:focus, h5>a:hover, h5>a:focus, h6>a:hover, h6>a:focus {
+    color: #e41919;
+}
+
+.takeaway {
+    font-family: "Montserrat", Arial, serif;
+    line-height: 1.4;
+    font-weight: 700;
+    color: #202020;
+    text-transform: uppercase;
+    letter-spacing: 3.4px;
+    font-size: 14px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+/*Objects */
+
 html {
     height: 100%;
     font-size: 100%;
@@ -26,6 +74,8 @@ img {
     min-height: 100%;
 }
 
+/* specific things */
+
 .close-list {
     margin: 0;
     padding: 0;
@@ -41,6 +91,7 @@ img {
 .close-bot {
     margin-bottom: 0.7em;
 }
+
 .close-top {
     margin-top: 0.0em;
 }
@@ -57,23 +108,12 @@ img {
 .space-top {
     margin-top: 1em;
 }
-.takeaway {
-    font-family: "Montserrat", Arial, serif;
-    line-height: 1.4;
-    font-weight: 700;
-    color: #202020;
-    text-transform: uppercase;
-    letter-spacing: 3.4px;
-    font-size: 14px;
-    padding-bottom: 0%;
-    margin-bottom: 0%;
-}
 
 .concept_list {
-    display:list-item;
+    display: list-item;
 }
 
-.floated{
+.floated {
     float: left;
     margin: 0.5em;
 }
@@ -91,77 +131,103 @@ hr.thin {
     color: #333;
     background-color: #333;
     width: 100%;
-    }
-
-/*Header and  Navigation */
-.header-container{
-    overflow: hidden;
 }
 
-.logo{
+.btn {
+    background: #202020;
+    font-family: "Montserrat", Arial, Sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+/*Header and Navigation */
+
+.header-container {
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 1;
+}
+
+body {
+    margin-top: 30px;
+    overflow: scroll;
+}
+
+.logo {
     float: left;
     vertical-align: middle;
 }
 
-.header-container{
+.header-container {
     background-color: #202020;
-    line-height: 30px;
+    height: 30px;
 }
 
-.nav-bar {
 
-}
-
-.nav-list{
+.nav-list {
     float: right;
 }
 
-.nav-list > li {
-    display: inline;
-    padding: 5px;
-    vertical-align: middle;
-}
-
-/* Text */
-a {
-    color: #e41919;
-    transition: all .3s ease-in-out;
-}
-
-a:hover, a:focus {
-    outline: 0;
-    text-decoration: none;
-    color: #f7b8b8;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat", Verdana, Arial;
+.nav-list>li {
+    font-family: 'Montserrat', 'Arial', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 3.4px;
-    color: #202020;
-
+    letter-spacing: 1.7px;
+    color: white;
+    font-size: 14px;
+    display: inline-block;
+    padding: 5px 30px 5px 0px;
+    line-height: normal;
 }
 
-h1 > a,
-h2 > a,
-h3 > a,
-h4 > a,
-h5 > a,
-h6 > a {
-    color: #202020;
+.current-page {
+    color: purple;
+}
+/* Header images */
+.module-header {
+    height: 90vh;
+    height: 100%;
+    min-height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-size: auto;
+    background-attachment: scroll;
+    background-repeat: repeat-x;
 }
 
-h1 > a:hover,
-h1 > a:focus,
-h2 > a:hover,
-h2 > a:focus,
-h3 > a:hover,
-h3 > a:focus,
-h4 > a:hover,
-h4 > a:focus,
-h5 > a:hover,
-h5 > a:focus,
-h6 > a:hover,
-h6 > a:focus {
-    color: #e41919;
+.header-text{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    
+}
+
+#home-header {
+    background:url("../images/hatcher_comp.png");
+}
+
+#ocp-header {
+    background:url("../images/ocp.PNG")
+}
+
+#vistal-header {
+    background:url("../images/vistal.png")
+}
+
+#user-header {
+    background:url("../images/weather_channel.jpg")
+}
+
+/* Footer */
+.footer {
+    background: #000;
+    text-align: center;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: black;
+        color:white;
+    }
 }
