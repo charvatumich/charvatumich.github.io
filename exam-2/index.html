@@ -10,9 +10,15 @@
 </head>
 <body>
     <h1>Hunter Charvat</h1>
-    <img class="" src="images/examPic.JPG" alt="Colleen and friends">
-    <img class="" src="images/UMSI-logo.jpg" alt="UMSI logo">
+    <div class="pic-wrapper">
+        <img id="left-pic" class='pic' src="images/examPic.JPG" alt="Colleen and friends">
+        <img id='right-pic' class='pic' src="images/UMSI-logo.jpg" alt="UMSI logo">
+    </div>
 
+    <br>
+    <button class="btn" name="button"  onclick="dis()">Hide Image</button>
+    <button class="btn" name="button" onclick="dis()">Show Image</button>
 
+    <script src="dis.js"></script>
 </body>
 </html>
